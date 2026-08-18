@@ -2,59 +2,161 @@
 <html lang="pt-BR">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <meta
+        name="description"
+        content="School Management System - Sistema de gestão escolar"
+    >
+
     <title>School Management System</title>
+
+    <!-- Google Fonts -->
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
 </head>
+
 
 <body>
 
     <div class="container">
 
-        <!-- HEADER -->
-        <header id="header" class="header">
 
-            <section class="logo">
-                <h1>SMS</h1>
-                <p>School Management System</p>
-            </section>
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
 
-            <section class="header-title">
-                <h2>School Management System</h2>
-            </section>
+        <header
+            id="header"
+            class="header"
+        >
 
-            <section class="user-profile">
-                <p>Bem-vindo(a),</p>
-                <strong>Administrador</strong>
-            </section>
+            <div class="logo">
+
+                <h1>
+                    SMS
+                </h1>
+
+                <p>
+                    School Management System
+                </p>
+
+            </div>
+
+
+            <div class="header-title">
+
+                <h2>
+                    School Management System
+                </h2>
+
+            </div>
+
+
+            <div class="user-profile">
+
+                <p>
+                    Bem-vindo(a),
+                </p>
+
+                <strong>
+                    Administrador
+                </strong>
+
+            </div>
 
         </header>
 
 
-        <!-- NAVBAR -->
-        <nav id="navbar" class="navbar">
+
+        <!-- =====================================================
+             MENU PRINCIPAL
+        ====================================================== -->
+
+        <nav
+            id="navbar"
+            class="navbar"
+        >
 
             <ul class="menu">
 
-                <li class="menu-item">
-                    <a href="#">Dashboard</a>
-                </li>
 
                 <li class="menu-item">
-                    <a href="#">Alunos</a>
+
+                    <a href="#">
+                        <i class="fa-solid fa-house"></i>
+                        Dashboard
+                    </a>
+
                 </li>
 
-                <li class="menu-item">
-                    <a href="#">Professores</a>
-                </li>
 
                 <li class="menu-item">
-                    <a href="#">Relatórios</a>
+
+                    <a href="#">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        Alunos
+                    </a>
+
                 </li>
 
+
                 <li class="menu-item">
-                    <a href="#">Configurações</a>
+
+                    <a href="#">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        Professores
+                    </a>
+
+                </li>
+
+
+                <li class="menu-item">
+
+                    <a href="#">
+                        <i class="fa-solid fa-calendar-xmark"></i>
+                        Faltas
+                    </a>
+
+                </li>
+
+
+                <li class="menu-item">
+
+                    <a href="#">
+                        <i class="fa-solid fa-chart-column"></i>
+                        Estatísticas
+                    </a>
+
                 </li>
 
             </ul>
@@ -62,197 +164,327 @@
         </nav>
 
 
-        <!-- MAIN -->
-        <main id="main" class="main">
 
-            <!-- SIDEBAR -->
-            <aside id="sidebar" class="sidebar">
+        <!-- =====================================================
+             ÁREA PRINCIPAL
+        ====================================================== -->
+
+        <main
+            id="main"
+            class="main"
+        >
+
+
+            <!-- =================================================
+                 SIDEBAR
+            ================================================== -->
+
+            <aside
+                id="sidebar"
+                class="sidebar"
+            >
+
+                <h2 class="sidebar-title">
+                    Menu
+                </h2>
+
 
                 <ul class="menu">
 
-                    <li class="menu-item">
-                        <a href="#">Dashboard</a>
-                    </li>
 
                     <li class="menu-item">
-                        <a href="#">Alunos</a>
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-house"></i>
+
+                            Dashboard
+
+                        </a>
+
                     </li>
 
-                    <li class="menu-item">
-                        <a href="#">Professores</a>
-                    </li>
 
                     <li class="menu-item">
-                        <a href="#">Turmas</a>
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-user-graduate"></i>
+
+                            Alunos
+
+                        </a>
+
                     </li>
 
-                    <li class="menu-item">
-                        <a href="#">Disciplinas</a>
-                    </li>
 
                     <li class="menu-item">
-                        <a href="#">Faltas</a>
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-chalkboard-user"></i>
+
+                            Professores
+
+                        </a>
+
                     </li>
 
-                    <li class="menu-item">
-                        <a href="#">Relatórios</a>
-                    </li>
 
                     <li class="menu-item">
-                        <a href="#">Calendário</a>
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-calendar-xmark"></i>
+
+                            Faltas
+
+                        </a>
+
                     </li>
 
+
                     <li class="menu-item">
-                        <a href="#">Configurações</a>
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-chart-column"></i>
+
+                            Estatísticas
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="menu-item">
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-school"></i>
+
+                            Turmas
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="menu-item">
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-book"></i>
+
+                            Disciplinas
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="menu-item">
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-file-lines"></i>
+
+                            Relatórios
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="menu-item">
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-calendar-days"></i>
+
+                            Calendário
+
+                        </a>
+
+                    </li>
+
+
+                    <li class="menu-item">
+
+                        <a href="#">
+
+                            <i class="fa-solid fa-gear"></i>
+
+                            Configurações
+
+                        </a>
+
                     </li>
 
                 </ul>
 
             </aside>
 
-            <!-- CONTENT -->
-        <section id="content" class="content">
-
-    <header class="content-header">
-
-        <h1>Dashboard</h1>
-
-        <p>
-            Visão geral do sistema School Management System.
-        </p>
-
-    </header>
 
 
-    <section class="cards">
+            <!-- =================================================
+                 CONTEÚDO
+            ================================================== -->
 
-        <article class="card">
+            <section
+                id="content"
+                class="content"
+            >
 
-            <h2 class="card-title">
-                Total de Alunos
-            </h2>
-
-            <div class="card-content">
-                128
-            </div>
-
-        </article>
-
-        <article class="card">
-
-            <h2 class="card-title">
-                Total de Professores
-            </h2>
-
-            <div class="card-content">
-                24
-            </div>
-
-        </article>
-
-        <article class="card">
-
-            <h2 class="card-title">
-                Turmas Ativas
-            </h2>
-
-            <div class="card-content">
-                15
-            </div>
-
-        </article>
-
-        <article class="card">
-
-            <h2 class="card-title">
-                Taxa de Frequência
-            </h2>
-
-            <div class="card-content">
-                92%
-            </div>
-
-        </article>
-
-    </section>
+                <h2 id="page-title">
+                    Dashboard
+                </h2>
 
 
-    <section class="dashboard-panels">
+                <p id="page-description">
 
-        <div class="panel activities">
+                    Bem-vindo ao School Management System.
 
-            <h2 class="card-title">
-                Atividades Recentes
-            </h2>
-
-            <div class="card-content">
-
-                <p>Novo aluno João Silva cadastrado</p>
-                <p>Falta registrada para a turma 3ºA</p>
-                <p>Nota lançada para Matemática - 2ºB</p>
-                <p>Relatório mensal gerado</p>
-
-            </div>
-
-        </div>
+                </p>
 
 
-        <div class="panel notifications">
+                <section id="dashboard-content">
 
-            <h2 class="card-title">
-                Avisos Importantes
-            </h2>
+                    <section class="statistics">
 
-            <div class="card-content">
 
-                <p><strong>Reunião pedagógica</strong></p>
-                <p>24/07 às 14h na sala dos professores</p>
+                        <article class="statistic-card">
 
-                <p><strong>Entrega de relatórios</strong></p>
-                <p>Prazo final: 30/07</p>
+                            <h3 id="student-total">
+                                12
+                            </h3>
 
-                <p><strong>Férias escolares</strong></p>
-                <p>Período: 15/12 a 31/12</p>
+                            <p>
+                                Total de Alunos
+                            </p>
 
-            </div>
+                        </article>
 
-            <button class="button">
-                Ver avisos
-            </button>
 
-        </div>
+                        <article class="statistic-card">
 
-    </section>
+                            <h3 id="teacher-total">
+                                2
+                            </h3>
 
-</section>    
-        <!-- FOOTER -->
-        <footer id="footer" class="footer">
+                            <p>
+                                Professores
+                            </p>
+
+                        </article>
+
+
+                        <article class="statistic-card">
+
+                            <h3>
+                                15
+                            </h3>
+
+                            <p>
+                                Turmas Ativas
+                            </p>
+
+                        </article>
+
+
+                        <article class="statistic-card">
+
+                            <h3>
+                                92%
+                            </h3>
+
+                            <p>
+                                Taxa de Frequência
+                            </p>
+
+                        </article>
+
+                    </section>
+
+
+                    <section class="activities">
+
+                        <h2>
+                            Sistema
+                        </h2>
+
+                        <p>
+                            Selecione uma opção no menu para começar.
+                        </p>
+
+                    </section>
+
+                </section>
+
+            </section>
+
+        </main>
+
+
+
+        <!-- =====================================================
+             FOOTER
+        ====================================================== -->
+
+        <footer
+            id="footer"
+            class="footer"
+        >
+
 
             <section class="company-info">
 
-                <h2>Kaizen Software Labs</h2>
+                <h2>
+                    Kaizen Software Labs
+                </h2>
 
-                <p>Desenvolvendo soluções para educação</p>
+                <p>
+                    Desenvolvendo soluções para educação
+                </p>
 
             </section>
 
 
             <section class="system-info">
 
-                <h2>School Management System</h2>
+                <h2>
+                    School Management System
+                </h2>
 
-                <p>Versão 1.0.0</p>
+                <p>
+                    Versão 1.0.0
+                </p>
 
             </section>
 
 
             <section class="social-media">
 
-                <p>Siga-nos:</p>
+                <p>
+                    Siga-nos:
+                </p>
 
-                <a href="#">Facebook</a>
-                <a href="#">Instagram</a>
-                <a href="#">GitHub</a>
+
+                <section class="social-links">
+
+                    <a href="#">
+                        Facebook
+                    </a>
+
+                    <a href="#">
+                        Instagram
+                    </a>
+
+                    <a href="#">
+                        GitHub
+                    </a>
+
+                </section>
 
             </section>
 
@@ -261,7 +493,10 @@
     </div>
 
 
-    <!-- JavaScript -->
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
     <script src="js/app.js"></script>
 
 </body>
